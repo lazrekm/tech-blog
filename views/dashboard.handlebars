@@ -1,0 +1,24 @@
+{{#if posts.length}}
+<h2 class="your-posts">Your Posts:</h2>
+<section class="bg-secondary text-dark rounded section">
+  <ol>
+    {{#each posts as |post|}}
+    <ul>
+      <article class="post">
+    <div class="title ">
+       <a class="text-white" href="/post/{{id}}">{{title}}</a>
+    </div>
+    <div class="meta">
+        <strong>Posted by {{user.username}} on {{format_date created_at}}</strong>
+    </div>
+    </article>
+      <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
+    </ul>
+    {{/each}}
+  </ol>
+</section>
+{{/if}}
+
+<div>
+    <button type="submit"><a href="/dashboard/newpost" class="create-btn">Create New Post</a></button>
+</div>

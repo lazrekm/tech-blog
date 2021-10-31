@@ -1,4 +1,4 @@
-async function signupFormHandler(event) {
+const signupFormHandler = async function (event) {
   event.preventDefault();
 
   const username = document.querySelector("#username-signup").value.trim();
@@ -16,7 +16,6 @@ async function signupFormHandler(event) {
       headers: { "Content-Type": "application/json" },
     });
     if (response.ok) {
-      console.log("success");
       document.location.replace("/dashboard");
     } else {
       alert(response.statusText);
