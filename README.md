@@ -5,13 +5,12 @@
 This is a tech blog that allows users to publish their blog posts and comment on other users posts as well. It supports account creation with secure password hashing and storage as well as the ability to login. Users can view, delete or update their posts. If the user idles for too long they will be logged out of their account
 
 ## Deployed Application:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://.herokuapp.com/)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://tech-blog-7.herokuapp.com/)
   
   ## Table of Contents 
   
   * [Installation](#installation)
-  
-  * [Screenshot](#screenshot)
+
   
  * [License](#license)
   
@@ -23,9 +22,6 @@ This is a tech blog that allows users to publish their blog posts and comment on
   `
   npm install
   `
-  ## Screenshot:
-
-  ![Screenshot techblog](./assets/Capture.PNG)
 
   ## License:
   

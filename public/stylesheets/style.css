@@ -6,7 +6,7 @@
     --tertiary: #788585;
     --light-dark: #6f6866;
     --dark: #40104e;
-    --border-radius: 0.3rem;
+
   
 }
 
@@ -312,7 +312,7 @@ footer {
     color: var(--dark);
     padding: 0 10px;
     display: inline-block;
-    border-radius: var(--border-radius);
+    border-radius: 0.3rem;
     box-shadow: 6px 5px var(--light-dark);
   }
   
@@ -324,7 +324,6 @@ footer {
     min-height: 100vh;
   }
   
-  /* FONT UTILS */
   .text-uppercase {
     text-transform: uppercase;
   }
